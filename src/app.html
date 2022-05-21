@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%svelte.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%svelte.head%
-	</head>
-	<body>
-		<div>%svelte.body%</div>
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%svelte.assets%/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+            html,
+            body {
+                font-family: 'Open Sans', sans-serif;
+                height: 100%;
+                width: 100%;
+                margin: 0;
+            }
+        </style>
+
+        %svelte.head%
+    </head>
+    <body>
+        %svelte.body%
+    </body>
 </html>
